@@ -1,6 +1,7 @@
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
-  version = "2.24.0"
+# version = "2.24.0"
+# another comment
 
   name = "gaurav-vpc"
   cidr = "10.0.0.0/16"
